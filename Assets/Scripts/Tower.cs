@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    [Tooltip("Enemy's demage to tower.")]
+    private int _demage;
+    [SerializeField]
+    [Tooltip("Speed that tower attack enemys.")]
+    private int _attackSpeed;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int Demage { get { return _demage; } set { _demage += value; } }
+    public int AttackSpeed{ get { return _attackSpeed; } set { _attackSpeed += value; } }
+
+    
 }

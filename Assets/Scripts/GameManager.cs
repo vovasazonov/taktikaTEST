@@ -39,7 +39,7 @@ namespace TaktikaTest
         // Start is called before the first frame update
         void Start()
         {
-            EventManager.AddListener(EventType.GameOver, e => SetGameOver());
+            EventManager.AddListener(EventType.GameOver, s => SetGameOver());
             EventManager.AddListener(EventType.HealthCastleUpdated, SetHealthUi);
         }
 
