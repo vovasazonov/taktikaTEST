@@ -32,7 +32,7 @@ namespace TaktikaTest
         public int Gold { get { return _gold; } set { } }
         public int Demage { get { return _demage; } set { } }
 
-        // Start is called before the first frame update
+        // Start is called before the first frame update.
         void Start()
         {
 
