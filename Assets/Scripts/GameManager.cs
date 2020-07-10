@@ -16,6 +16,7 @@ namespace TaktikaTest
 
         [SerializeField]
         [Tooltip("Player's gold")]
+
         private int _gold;
         public int Gold
         {
